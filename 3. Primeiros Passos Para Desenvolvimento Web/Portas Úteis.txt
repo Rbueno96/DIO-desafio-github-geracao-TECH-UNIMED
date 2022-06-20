@@ -1,0 +1,4 @@
+Portas próprias utilizadas pelo GMAIL: A porta padrão do servidor SMTP do Gmail é 465 para SSL e 587 para TSL. 
+
+Porta padrão banco de dados MySQL: 3306
+Porta padrão servidor web Apache: 443

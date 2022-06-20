@@ -1,0 +1,40 @@
+Elementos para HTML5
+
+<a>"Link"</a> = Pode ter dois principais atributos:
+
+<a href="linkedin.com/in/rodbueno">LinkedIn</a>
+<a href="mailto:robueno1996@gmail.com">E-mail</a>
+<a href="tel:2499927-0446">Telefone</a>
+
+<a target="_blank">Link</a> ----> Diz à nossa página para abrir o link em nova aba.
+
+Exemplo prático: [   <a href="https://www.linkedin.com/in/rodbueno/">TEXTO</a>      ]
+
+[ <a href="https://www.linkedin.com/in/rodbueno/"> modelo da indústria tipográfica e de impressão</a> ]
+
+AO USAR O TARGET PARA ABRIR EM NOVA ABA
+
+<a href="https://www.linkedin.com/in/rodbueno/"target="_blank">TEXTO</a>
+
+<a href="https://www.linkedin.com/in/rodbueno/"target="_blank"> modelo da indústria tipográfica e de impressão</a>
+
+_________________________________________________________________________
+
+IMAGENS
+
+<img>
+<img src="img/avatar.jpg">   -----> Mostra o caminho do arquivo
+<img alt="foto de Rodrigo">  -----> Mostra a descrição da foto
+
+__________________________________________________________________
+
+LISTAS
+
+<ul> -----> Representa uma lista em que a ordem dos itens não importa.
+item 1
+item 2
+
+<ol>  -------> Quando a ordem dos itens é importante
+
+<li> -------> É um item dessa lista
+

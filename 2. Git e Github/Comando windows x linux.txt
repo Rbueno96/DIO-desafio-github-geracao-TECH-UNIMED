@@ -1,0 +1,36 @@
+COMANDOS DE NAVEGAÇÃO
+
+Listar, entender em que local nós estamos (directory)
+WINDOWS - DIR / LINUX - LS
+
+Change Directory (Avançar)
+WINDOWS - cd/ / LINUX - cd/
+
+Change Directory (Recuar)
+WINDOWS - cd.. / LINUX - cd..
+
+Limpar o Log
+WINDOWS - cls / LINUX - clear (cltr + L)
+
+Criar pasta
+WINDOWS - mkdir workspace  / LINUX - mkdir workspace
+
+Escrever no cmd
+WINDOWS - echo / LINUX -
+
+Criar arquivo no cmd
+WINDOWS - echo "Tal coisa" > "Tal coisa".txt (extensão do arquivo) / LINUX -
+
+Deletar arquivos (não deleta repositório)
+WINDOWS - del / LINUX - 
+
+Deletar o repositório
+WINDOWS - rmdir  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 
+WINDOWS -  / LINUX - 

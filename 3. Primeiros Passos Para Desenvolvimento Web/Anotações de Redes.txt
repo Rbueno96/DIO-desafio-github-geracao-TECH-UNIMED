@@ -1,0 +1,100 @@
+O que é TCP/IP?
+R: É a combinação de dois protocolos responsáveis pela comunicação entre redes.
+São responsáveis pelo envio e recebimento de dados na internet.
+
+
+
+
+O que é HTTP/HTTPS?
+R: São protocolos de transferencia usados toda vez que acessamos um site. Servem para garantir a comunicação correta entre o navegador
+e o código do site.
+
+A diferença entre os dois basicamente é o nível de segurança. O HTTPS é um protocolo criptografado, usado em sites bancários e etc.
+
+
+
+
+O que é XMPP?
+R: É um protocolo open source, ou seja, gratuito, de comunicação aberta para envio massivo de mensagens e comunicação instantânea.
+É amplamente utilizado por IoT, Internet of Things, sistemas utilizado por alexa, siri e casas inteligentes.
+
+
+
+
+O que é POP, IMAP e SMTP?
+R: Sâo os protocolos mais utilizados na internet até hoje e foram alguns dos primeiros protocolos à surgirem.
+São protocolos envolvidos no gerenciamento de contas de e-mail. 
+É o conjunto de regras para um dispositivo se conectar a um servidor de email.
+
+
+
+
+O que é DHCP?
+R: Esse protocolo determina de forma dinâmica e automática a atribuição de um endereço IP para seu dispositivo.
+
+
+
+
+O que é FTP, SFTP, FTPS?
+R: É um protocolo de transferencia de arquivos. O "S" significa que o protocolo é criptografado e a posição indica onde está a criptografia.
+Se o "S" vier antes ele está no cliente, no envio, se o "S" for depois ele é criptografado no servidor, no recebimento.
+
+
+
+O que é SSH?
+R: É uma conexão criptografada que permite o envio de comandos para servidores remotos pelos administradores.
+Tal como se o usuário estivesse utilizando a máquina presencialmente.  
+
+
+(COMANDOS DE REDE)
+
+O que é IPCONFIG?
+R: É uma ferramenta que permite visualizar toda a configuração do protocolo TCP/IP.
+Também permite configurar várias coisas, como redefinir as definições do DHCP.
+
+
+O que é PING?
+R: É um comando utilizado para testar a conexão e verificar o tempo resposta.
+
+
+O que é TRACERT?
+R: É um comando utilizado para verificar a integridade e o tempo de resposta do caminho que está sendo utilizado para acessar aquele servidor.
+TRACERT = TRACE ROUTE
+
+O que é DNS?
+R: É um protocolo para traduzir nomes para ip e ip para nomes. Exemplo, ao pesquisar g1.com, o DNS vai transformar o "g1.com" em "186.192.90.12".
+
+
+Endereço IPV4 = 186.192.90.12 Ex
+Endereço IPV6 = 2800:3f0:4001:82f::200e Ex
+
+
+Os protocolos TCP/IP DHCP auxiliam à traçar rotas melhores para chegar ao servidor.
+
+
+O que é NSLOOKUP?
+R: Esse comando tráz informações sobre o nome do endereço de ip.
+
+O que é NETSTAT?
+R: Identifica todas as portas abertas e fechadas.
+
+
+ANOTAÇÃO DE REDE: POSSO COLOCAR A PORTA NO FINAL DO IP, 266.20.665.192:10019
+
+O que é ARP?
+R: Identificar quem e o que está conectado a sua máquina através da rede ethernet.
+
+
+TIPOS DE IP
+UDP - Envio rápido, livestream, mas sem confirmação de envio ou recebimento. Não é possível identificar quem recebeu a informação.
+TCP - Envio mais lento, handshake, confirmação de envio e recebimento, mais confiável. Garante a ordem correta do envio de mensagens, por exemplo.
+
+SSM - Mensagem de texto
+MMS - Mensagem multimídia
+
+WEP = chaves de 64bits e de 128bits
+WPA = chaves trocadas periodicamente
+WPA2 = + segurança + processamento
+
+Bluetooth - Conexão ponto à ponto p2p
+

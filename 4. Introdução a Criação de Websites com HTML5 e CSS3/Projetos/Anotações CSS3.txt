@@ -1,0 +1,201 @@
+         SELETORES
+            |
+____________|_____________
+|                        |
+|                        |
+|                        |
+|                        |
+a   ,   p   ,   h1   ,   h3   {
+	color: []blue;
+	font-size: 14px;
+}     |                 |
+      ___________________
+               |
+          DECLARAÇÕES
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+ID X CLASS
+
+NO HTML
+<header id="header" class="header"></header>  -----> SÓ PODE SER USADO UMA VEZ NA PÁGINA
+
+<header class="header"></header>  ---------------> QUANTAS VEZES QUISER
+-------------------------------
+
+NO CSS
+
+.header{                            -------------> SÓ PODE SER USADO UMA VEZ NA PÁGINA
+	padding: 10px;
+	}
+
+#header{                            -------------> QUALQUER ELEMENTO, QUANTAS VEZES
+	padding: 15px;
+	}
+
+
+EXEMPLO: ---------------------------------------
+#title, .subtitle, .post_title {
+	color: blue;
+}
+
+
+.post_title {
+	font-size: 16px;
+	font-style: italic;
+}
+
+***NÃO ESQUECER DO PONTO ".subtitle" para atribuir a outros titulos ou subtitulos
+
+
+_____________________________________________________________________________________________
+
+
+MARGIN -> BORDER -> PADDING -> CONTENT <- PADDING <- BORDER <- MARGIN
+
+.post {	eixo 	  y    x
+	padding: 10px 5px;
+}
+
+.post { "um para cada lado"
+	padding: 15px 10px 5px 0;
+}
+
+.post { "outro layout"
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+-------------------------------------------------------------------------------------
+
+BACKGROUND
+
+.post {
+	background-color: green;
+	background-image: url("bg.png");
+	background-position: top;
+}
+
+Formas de alterar a cor do background:
+
+.post {
+	background-color: green; "nome da cor em ingles"
+	background-color: #008800; "código da cor"
+	backgroud: #008800; "qualquer um dos dois funciona"
+}
+
+-----------------------------------------------------------------------------------------
+ESTILIZANDO ELEMENTOS
+CARACTERISTICAS
+
+Largura: pixels, centimetros, milimetros...
+cor: blue, green, #0000ff...
+estilo: solid, dotted, dashed
+
+exemplo:
+
+.post{
+	border: 3px solid blue;
+	border: 2px dotted green;
+	border: 4px dashed pink;
+}
+
+
+.post{
+	border-width: 3px;
+	border-color: gree;n
+	border-style: solid;
+}
+
+PARA ALTERAR SÓ UM LADO
+
+.post{
+	border-top-width: 3px;
+	border-top-color: gree;n
+	border-top-style: solid;
+}
+
+PARA ARREDONDAR OS CANTOS DE UM ELEMENTO:
+
+border-radius: 10px;
+border-radius: 50%; -----> Transforma um elemento quadrado em um círculo
+border-radius: 10% 20%;
+border-radius: 10% 20% 15% 22%;
+
+-----------------------------------------------------------------
+
+ESTILIZANDO TEXTOS
+
+.post_title {                       ----------------------> Altera o tipo de fonte
+	font-family: Verdana, Arial;
+}
+
+----------------
+.post_title {                       ----------------------> Altera o tamanho da fonte
+	font-size: 30px;
+}
+
+----------------
+.post_title {                       ----------------------> Altera o estilo da fonte
+	font-style: normal, italic;
+}
+
+----------------
+.post_title {                       ----------------------> Altera o peso da fonte
+	font-weight: normal, bold;
+}
+
+----------------
+
+.post_title {                       ----------------------> Altera o tipo de caixa da fonte AAAaaaAaAaAa
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+}
+----------------
+
+.post_title {                       ----------------------> Usado para destacar algum texto
+	text-decoration: underline;
+	text-decoration: overline;
+	text-decoration: line-through;
+}
+---------------
+
+-----------------------------------------------------------------
+
+ESTILIZANDO LISTAS
+
+ul {
+	list-style-type: square; ---------------> Alterando o símbolo para um quadrado
+}
+-----------------------
+ol {
+	list-style-type: upper-roman;  -----------> Alterando para um algarismo romano maíusculo 
+}
+-----------------------
+ul {
+	list-style-type: "\1F44D"  --------------> Emote de Joinha
+}
+---------------------------------------------------------------------------------------------
+
+DIMENSÃO E ALINHAMENTO
+
+Width
+Height
+
+Max-width
+Max-height
+
+Margin
+
+Text align
+
+
+Ao ajustar o elemento de fora da imagem colocar o width do ''post_image'' em 100% para sempre respeitar o tamanho do elemento.
+
+Para alinhar automaticamente com os variados tamanhos e formatos de tela "setar" o margin em "auto".
+
+( margin: auto; )
+
