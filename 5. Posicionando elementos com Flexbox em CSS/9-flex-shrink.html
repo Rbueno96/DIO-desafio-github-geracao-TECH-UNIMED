@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas - Flex-Shrink</title>
+
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+
+        .item{
+            background-color: aquamarine;
+            margin: 5px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .shrink-1{
+            flex-shrink: 1;
+        }
+
+        .shrink-0{
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <p>flex-shrink: 1</p>
+    <div class="flex-container">
+        <div class="item fg-1 shrink-1">A</div>
+        <div class="item fg-1 shrink-1">B</div>
+        <div class="item fg-1 shrink-1">C</div>
+        <div class="item fg-1 shrink-1">D</div>
+        <div class="item fg-1 shrink-1">E</div>
+    </div>
+
+    <p>flex-shrink: 1</p>
+    <div class="flex-container">
+        <div class="item fg-1 shrink-1">A</div>
+        <div class="item fg-1 shrink-1">LETS GO, WE ARE ON THE RIGHT WAY</div>
+        <div class="item fg-1 shrink-1">C</div>
+        <div class="item fg-1 shrink-1">D</div>
+    </div>
+
+    <p>flex-shrink: 0  /  basis: 100px</p>
+    <div class="flex-container">
+        <div class="item fg-1 shrink-0">A</div>
+        <div class="item fg-1 shrink-0">LETS GO, WE ARE ON THE RIGHT WAY</div>
+        <div class="item fg-1 shrink-0">C</div>
+        <div class="item fg-1 shrink-0">D</div>
+    </div>
+
+</body>
+</html>
